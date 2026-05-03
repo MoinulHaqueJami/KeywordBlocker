@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keyword Blocker</string>
+    <string name="accessibility_description">Keyword Blocker monitors screen content to block adult material and enforce app time limits. All processing happens locally on your device.</string>
+</resources>
