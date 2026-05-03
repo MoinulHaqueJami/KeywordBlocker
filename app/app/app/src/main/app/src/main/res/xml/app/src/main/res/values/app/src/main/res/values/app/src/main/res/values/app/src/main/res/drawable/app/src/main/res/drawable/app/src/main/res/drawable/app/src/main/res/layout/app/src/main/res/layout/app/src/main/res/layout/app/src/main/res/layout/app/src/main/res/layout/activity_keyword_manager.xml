@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔑 Keyword Manager"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#1A1A2E"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Long press a keyword to remove it."
+        android:textSize="12sp"
+        android:textColor="#666"
+        android:padding="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+
+        <EditText
+            android:id="@+id/et_new_keyword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Add custom keyword..."
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btn_add_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:backgroundTint="#E94560"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_keywords"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#EEEEEE"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>
