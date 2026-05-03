@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📱 App Time Manager"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#1A1A2E"
+        android:textColor="#FFFFFF"
+        android:padding="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="নির্দিষ্ট অ্যাপের জন্য দৈনিক সময়সীমা সেট করুন।"
+        android:textSize="13sp"
+        android:textColor="#555555"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/btn_add_app"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:text="+ ADD APP RULE"
+        android:backgroundTint="#E94560"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_managed_apps"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"/>
+
+</LinearLayout>
