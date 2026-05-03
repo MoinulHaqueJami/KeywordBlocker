@@ -1,7 +1,0 @@
--keep class com.keywordblocker.service.** { *; }
--keep class com.keywordblocker.util.DataManager { *; }
--keep class com.keywordblocker.util.KeywordDatabase { *; }
--keep class com.keywordblocker.model.** { *; }
--keep class * extends android.accessibilityservice.AccessibilityService { *; }
--keep class * extends android.app.Service { *; }
--keep class * extends android.content.BroadcastReceiver { *; }
